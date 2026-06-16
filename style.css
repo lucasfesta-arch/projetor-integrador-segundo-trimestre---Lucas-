@@ -1,0 +1,47 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo principal do Cabeçalho */
+.cabecalho {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between; /* Separa o título dos botões */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve em baixo */
+}
+
+/* Estilo do Título */
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Organização da lista de links */
+.navegacao ul {
+    list-style: none; /* Tira as bolinhas da lista */
+    display: flex;
+    gap: 20px; /* Espaço entre os botões */
+}
+
+/* Estilo dos Botões de Encaminhamento */
+.btn {
+    text-decoration: none; /* Tira o sublinhado do link */
+    color: #ffffff;
+    background-color: #34495e; /* Fundo do botão */
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.btn:hover {
+    background-color: #3498db; /* Muda para um azul mais claro */
+    transform: scale(1.05); /* Aumenta levemente o botão */
+}
